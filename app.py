@@ -159,7 +159,7 @@ with tab2:
                 st.progress(progress / total_qs, text=f"Kysymys {progress}/{total_qs}")
 
 		# ✅ Näytä tähän mennessä oikein -laskuri
-		st.caption(f"✅ Oikein tähän mennessä: {state['first_correct']} / {state['first_total']}")
+                st.caption(f"✅ Oikein tähän mennessä: {state['first_correct']} / {state['first_total']}")
 
 
                 # Kysymyksen suunta
