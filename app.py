@@ -6,8 +6,8 @@ import utils
 import glob
 import os
 
-st.set_page_config(page_title="Italian–Suomi verbivisa", layout="wide")
-st.title("📖 Italian–Suomi verbivisa")
+st.set_page_config(page_title="Sanavisa", layout="wide")
+st.title("📖 Sanavisa")
 
 # --------------------
 # Valitse sanalista
