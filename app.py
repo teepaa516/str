@@ -158,9 +158,13 @@ with tab2:
                 total_qs = len(state["indices"])
                 st.progress(progress / total_qs, text=f"Kysymys {progress}/{total_qs}")
 
-		# ✅ Näytä tähän mennessä oikein -laskuri
-                st.caption(f"✅ Oikein tähän mennessä: {state['first_correct']} / {state['first_total']}")
-
+                # ✅ Näytä tähän mennessä oikein -laskuri
+                await_next = state.get("await_next", False)
+                last_fb = state.get("last_feedback") or {}
+                answered_so_far = state["ptr"] + (1 if await_next else 0)
+                display_correct = state["first_correct"] + (1 if (await_next and last_fb.get("is_correct")) else 0)
+                if answered_so_far > 0:
+                    st.caption(f"✅ Oikein tähän mennessä: {display_correct} / {answered_so_far}")
 
                 # Kysymyksen suunta
                 if state["direction"] == "it → fi":
@@ -268,21 +272,22 @@ with tab3:
     """)
     state = st.session_state.get("quiz_state")
     if state and state["done"]:
+
         from datetime import datetime as _dt
         start = _dt.fromisoformat(state.get("start_time")) if state.get("start_time") else None
         end = _dt.now()
         duration = (end - start).seconds if start else None
         avg_time = round(duration / state["first_total"], 1) if duration and state["first_total"] else None
 
-        first_total = max(1, state["first_total"])
+        first_total = state["first_total"]
         first_correct = state["first_correct"]
-        pct = round(100 * first_correct / first_total, 1)
+        pct = (round(100 * first_correct / first_total, 1) if first_total else 0.0)
 
         if state["package"] == "kaikki":
-            st.info(
-                f"Eka kierros yhteensä: **{first_correct}/{first_total} ({pct}%)**"
-                + (f" — aika {duration} s, keskimäärin {avg_time} s/sana" if duration else "")
-            )
+            base_msg = f"Eka kierros yhteensä: **{first_correct}/{first_total} ({pct}%)**"
+            time_msg = (f" — aika {duration} s, keskimäärin {avg_time} s/sana"
+                        if (duration and first_total) else (" — ei kysymyksiä" if first_total == 0 else ""))
+            st.info(base_msg + time_msg)
             st.caption("Koonti ei tallennu ennätyksiin.")
         else:
             st.success(
