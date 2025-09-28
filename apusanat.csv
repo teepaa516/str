@@ -1,102 +1,101 @@
 suomi,italia,epäsäännöllinen
-maanantai,lunedì
-tiistai,martedì
-keskiviikko,mercoledì
-torstai,giovedì
-perjantai,venerdì
-lauantai,sabato
-sunnuntai,domenica
-tammikuu,gennaio
-helmikuu,febbraio
-maaliskuu,marzo
-huhtikuu,aprile
-toukokuu,maggio
-kesäkuu,giugno
-heinäkuu,luglio
-elokuu,agosto
-syyskuu,settembre
-lokakuu,ottobre
-marraskuu,novembre
-joulukuu,dicembre
-ylös,su
-alas,giù
-oikea,destra
-vasen,sinistra
-eteen,avanti
-taakse,indietro
-sisään,dentro
-ulos,fuori
-lähellä,vicino
-kaukana,lontano
-nyt,adesso
-sitten,poi
-pian,presto
-aina,sempre
-usein,spesso
-joskus,qualche volta
-harvoin,raramente
-ei koskaan,mai
-tänään,oggi
-eilen,ieri
-huomenna,domani
-tämä,questo
-tuo,quello
-mikä,che
-kuka,chi
-kaikki,tutti
-joku,qualcuno
-ei kukaan,nessuno
-jokin,qualcosa
-ei mikään,niente
-jokainen,ognuno
-toinen,altro
-sama,stesso
-ja,e
-tai,o
-mutta,ma
-koska,perché
-vähän,poco
-jos,se
-kun,quando
-vaikka,anche se
-niin että,così che
-jotta,affinché
-kanssa,con
-ilman,senza
-ennen,prima di
-jälkeen,dopo
-yli,sopra
-ali,sotto
-vastapäätä,di fronte a
-läpi,attraverso
-kohti,verso
-luona,presso
-monta,molti
-muutama,alcuni
-useimmat,la maggior parte
-kaikki,tutto
-ei mitään,nulla
-enemmän,più
-vähemmän,meno
-tarpeeksi,abbastanza
-kyllä,sì
-ei,no
-ehkä,forse
-myös,anche
-vain,solo
-juuri,proprio
-melkein,quasi
-jo,già
-vielä,ancora
-yhdessä,insieme
-erikseen,separatamente
-missä,dove
-täällä,qui
-tuolla,li
-aina kun,ogni volta che
-sillä aikaa kun,mentre
-heti,subito
-joskus,talvolta
-joten,quindi
-kuten;niin kuin,come
-
+maanantai,lunedì,
+tiistai,martedì,
+keskiviikko,mercoledì,
+torstai,giovedì,
+perjantai,venerdì,
+lauantai,sabato,
+sunnuntai,domenica,
+tammikuu,gennaio,
+helmikuu,febbraio,
+maaliskuu,marzo,
+huhtikuu,aprile,
+toukokuu,maggio,
+kesäkuu,giugno,
+heinäkuu,luglio,
+elokuu,agosto,
+syyskuu,settembre,
+lokakuu,ottobre,
+marraskuu,novembre,
+joulukuu,dicembre,
+ylös,su,
+alas,giù,
+oikea,destra,
+vasen,sinistra,
+eteen,avanti,
+taakse,indietro,
+sisään,dentro,
+ulos,fuori,
+lähellä,vicino,
+kaukana,lontano,
+nyt,adesso,
+sitten,poi,
+pian,presto,
+aina,sempre,
+usein,spesso,
+muutama,qualche,
+harvoin,raramente,
+ei koskaan,mai,
+tänään,oggi,
+eilen,ieri,
+huomenna,domani,
+tämä,questo,
+tuo,quello,
+mikä,che,
+kuka,chi,
+kukin,ciascuno,
+joku,qualcuno,
+ei kukaan,nessuno,
+jokin,qualcosa,
+ei mikään,niente,
+jokainen,ognuno,
+toinen,altro,
+sama,stesso,
+ja,e,
+tai,o,
+mutta,ma,
+koska,perché,
+vähän,poco,
+jos,se,
+kun,quando,
+vaikka,anche se,
+niin että,così che,
+jotta,affinché,
+kanssa,con,
+ilman,senza,
+ennen,prima di,
+jälkeen,dopo,
+yli,sopra,
+ali,sotto,
+vastapäätä,di fronte a,
+läpi,attraverso,
+kohti,verso,
+luona,presso,
+monta,molti,
+jotkut,alcuni,
+useimmat,la maggior parte,
+kaikki,tutto,
+ei mitään,nulla,
+enemmän,più,
+vähemmän,meno,
+tarpeeksi,abbastanza,
+kyllä,sì,
+ei,no,
+ehkä,forse,
+myös,anche,
+vain,solo,
+juuri,proprio,
+melkein,quasi,
+jo,già,
+vielä,ancora,
+yhdessä,insieme,
+erikseen,separatamente,
+missä,dove,
+täällä,qui,
+tuolla,li,
+aina kun,ogni volta che,
+sillä aikaa kun,mentre,
+heti,subito,
+joskus,talvolta,
+joten,quindi,
+kuten;niin kuin,come,
